@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Me
 
-You can use the [editor on GitHub](https://github.com/jiaoyining/yiningjiao.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<figure class="thrid">
+<img src="./photo1.png" width = "200" height = "180" div align=right>I am a M.S. student in Shanghai Jiao Tong University. My research interest lies on computer-aided diagnosis, feature engineering, radiomics, machine learning, deep learning.
+ </figure>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Publications
 
-### Markdown
+### Conferences
+**cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit***
+Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang
+MICCAI 2019, RNO-AI Workshop [oral]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Journals
+**Imaging-Based Individualized Response Prediction of Carbon Ion Radiotherapy for Prostate Cancer Patients**
+S Wu#, Y Jiao#, Y Zhang, X Ren, P Li, Q Yu, Q Wang, S Fu
+Cancer Management and Research
 
-```markdown
-Syntax highlighted code block
+**Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**
+H Song#, Y Jiao#, W Wei, X Ren, C Shen, Z Qiu, Q Yang, Q Wang, QY Luo
+European radiology 29 (7), 3945-3954
 
-# Header 1
-## Header 2
-### Header 3
+**Intracluster structured low-rank matrix analysis method for hyperspectral denoising**
+W Wei#, L Zhang#, Y Jiao, C Tian, C Wang, Y Zhang
+IEEE Transactions on Geoscience and Remote Sensing 57 (2), 866-880
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jiaoyining/yiningjiao.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

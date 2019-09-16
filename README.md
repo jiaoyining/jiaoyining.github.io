@@ -11,7 +11,8 @@
 <img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo1.png?raw=true" width = "200" height = "180" align="right">I am a M.S. candidate at Shanghai Jiao Tong University, School of Biomedical Engineering, advised by Professor Qian Wang in the Medical Imaging Computing Lab. My research interest lies on computer-aided diagnosis, feature engineering, radiomics, machine learning.
 </figure>
 
-
+<font face="黑体">
+  
 # Publications
 
 ## Conferences
@@ -38,3 +39,4 @@ W Wei#, L Zhang#, Y Jiao, C Tian, C Wang, Y Zhang
 W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao  
 *China Patent*  
 
+</font>

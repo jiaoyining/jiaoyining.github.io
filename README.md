@@ -1,8 +1,8 @@
 
-[Yining Jiao](https://github.com/jiaoyining/jiaoyining.github.io/blob/master/README.md)
-[Reading List](https://github.com/jiaoyining/jiaoyining.github.io/blob/master/readinglist.md)
-[Resources](https://github.com/jiaoyining/jiaoyining.github.io/blob/master/resources.md)
-[Contact Me](https://github.com/jiaoyining/jiaoyining.github.io/blob/master/constactme.md)
+[Yining Jiao](https://github.com/jiaoyining/jiaoyining.github.io/README.md)
+[Reading List](https://github.com/jiaoyining/jiaoyining.github.io/readinglist.md)
+[Resources](https://github.com/jiaoyining/jiaoyining.github.io/resources.md)
+[Contact Me](https://github.com/jiaoyining/jiaoyining.github.io/constactme.md)
 
 
 # Yining Jiao

@@ -1,5 +1,6 @@
 
-[Reading List](https://github.com/jiaoyining/jiaoyining.github.io/readinglist.md)
+[Yining Jiao](https://jiaoyining.github.io/)
+[Reading List](https://jiaoyining.github.io/reading-list)
 
 
 # Yining Jiao
@@ -40,6 +41,6 @@ W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao
 At SJTU, I served as a Teaching Assistant in Spring 2019 for Computer Vision in Biomedical Engineering. 
 
 # Hobbies
-In my free time, I enjoy [reading books](https://github.com/jiaoyining/jiaoyining.github.io/readinglist.md) and wirting poems. I was invited《Chinese Poetry》“New Discovery” Poetry Camp and some of my works were published in *Poetry Periodical*,*Chinese Poetry*, etc.
+In my free time, I enjoy [reading books](https://jiaoyining.github.io/reading-list) and wirting poems. I was invited to *Chinese Poetry New Discovery* Poetry Camp in 2018 as one of the twelve campers and some of my works were published in *Poetry Periodical*,*Chinese Poetry*, etc.
 
 

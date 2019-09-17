@@ -9,8 +9,6 @@ For academic papers, I manage them in EndNotes.
 
 Snowman, Jo Nesbo
 
-
-Simians,Cyborgs, and Women Donna J Haraway
-
+Simians, Cyborgs, and Women, Donna J Haraway
 
 Ring, Koji Suzuk

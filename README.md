@@ -42,6 +42,6 @@ W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao
 At SJTU, I served as a Teaching Assistant in Spring 2019 for Computer Vision in Biomedical Engineering. 
 
 # Hobbies
-In my free time, I enjoy [reading books](https://jiaoyining.github.io/reading-list) and wirting poems. I was invited to *Chinese Poetry New Discovery* Poetry Camp in 2018 as one of the twelve campers and some of my works were published in *Poetry Periodical*,*Chinese Poetry*, etc.
+In my free time, I enjoy [reading books](https://jiaoyining.github.io/readinglist) and wirting poems. I was invited to *Chinese Poetry New Discovery* Poetry Camp in 2018 as one of the twelve campers and some of my works were published in *Poetry Periodical*,*Chinese Poetry*, etc.
 
 

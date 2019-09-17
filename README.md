@@ -12,7 +12,7 @@ You can reach me at jiaoyining@sjtu.edu.cn and [my Google Scholar](https://schol
 **cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit***  
 Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang  
 *MICCAI 2019, RNO-AI Workshop,* ***Oral Presentation(top 10 of submitted papers)***
-
+[[code](https://github.com/jiaoyining/cuRadiomics)]
 ## Journals
 **Imaging-Based Individualized Response Prediction of Carbon Ion Radiotherapy for Prostate Cancer Patients**  
 S Wu#, Y Jiao#, Y Zhang, X Ren, P Li, Q Yu, Q Wang, S Fu  
@@ -21,10 +21,12 @@ S Wu#, Y Jiao#, Y Zhang, X Ren, P Li, Q Yu, Q Wang, S Fu
 **Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**  
 H Song#, Y Jiao#, W Wei, X Ren, C Shen, Z Qiu, Q Yang, Q Wang, QY Luo  
 *European radiology 29 (7), 3945-3954*
+[[pdf](https://link.springer.com/article/10.1007/s00330-019-06074-2)]
 
 **Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
 W Wei#, L Zhang#, Y Jiao, C Tian, C Wang, Y Zhang  
 *IEEE Transactions on Geoscience and Remote Sensing 57 (2), 866-880*
+[[pdf](https://ieeexplore.ieee.org/abstract/document/8447235)], [[code](https://github.com/jiaoyining/Intracluster-SLRMA)]
 
 ## Patent
 

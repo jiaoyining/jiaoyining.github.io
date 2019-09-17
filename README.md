@@ -18,7 +18,7 @@ Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang
 ## Journals
 **Imaging-Based Individualized Response Prediction of Carbon Ion Radiotherapy for Prostate Cancer Patients**  
 S Wu#, Y Jiao#, Y Zhang, X Ren, P Li, Q Yu, Q Wang, S Fu  
-*Cancer Management and Research, in press* 
+*Cancer Management and Research, in Press* 
 
 **Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**    
 H Song#, Y Jiao#, W Wei, X Ren, C Shen, Z Qiu, Q Yang, Q Wang, QY Luo  

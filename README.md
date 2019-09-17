@@ -36,6 +36,11 @@ W Wei#, L Zhang#, Y Jiao, C Tian, C Wang, Y Zhang.
 W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao.  
 *China Patent*, 2018.  
 
+# Talks
+
+**Radiomics-driven Deep Reinforcement Learning in Detecting Brain Tumor Lesions**
+*SJTU Graduate Student Academic Forum* ***(1st Prize for Oral Presentation)***, 2019.
+
 
 # Teaching
 At SJTU, I served as a Teaching Assistant in Spring 2019 for Computer Vision in Biomedical Engineering. 

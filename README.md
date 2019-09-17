@@ -26,7 +26,7 @@ H Song#, Y Jiao#, W Wei, X Ren, C Shen, Z Qiu, Q Yang, Q Wang, QY Luo
 **Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
 W Wei#, L Zhang#, Y Jiao, C Tian, C Wang, Y Zhang  
 *IEEE Transactions on Geoscience and Remote Sensing 57 (2), 866-880*  
-[[pdf](https://ieeexplore.ieee.org/abstract/document/8447235)], [[code](https://github.com/jiaoyining/Intracluster-SLRMA)]
+[[pdf](https://ieeexplore.ieee.org/abstract/document/8447235), [code](https://github.com/jiaoyining/Intracluster-SLRMA)]
 
 ## Patent
 

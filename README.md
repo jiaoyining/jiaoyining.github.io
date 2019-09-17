@@ -12,7 +12,7 @@ You can reach me at jiaoyining@sjtu.edu.cn and [my Google Scholar](https://schol
 ## Conferences
 **cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit***  
 Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang.  
-*Radiomics and Radiogenomics in Neuro-oncology using AI at MICCAI 2019 Workshop,* ***Oral Presentation(top 10 of submitted papers)***, 2019.  
+*MICCAI Workshop on Radiomics and Radiogenomics in Neuro-oncology using AI*, ***Oral Presentation(top 10 of submitted papers)***, 2019.  
 [[code](https://github.com/jiaoyining/cuRadiomics)]
 
 ## Journals

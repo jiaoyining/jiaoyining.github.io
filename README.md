@@ -11,30 +11,30 @@ You can reach me at jiaoyining@sjtu.edu.cn and [my Google Scholar](https://schol
 
 ## Conferences
 **cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit***  
-Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang  
-*MICCAI 2019 Workshop on Radiomics and Radiogenomics in Neuro-oncology using AI,* ***Oral Presentation(top 10 of submitted papers)***, 2019  
+Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang.  
+*Radiomics and Radiogenomics in Neuro-oncology using AI at MICCAI 2019 Workshop,* ***Oral Presentation(top 10 of submitted papers)***, 2019.  
 [[code](https://github.com/jiaoyining/cuRadiomics)]
 
 ## Journals
 **Imaging-Based Individualized Response Prediction of Carbon Ion Radiotherapy for Prostate Cancer Patients**  
-S Wu#, Y Jiao#, Y Zhang, X Ren, P Li, Q Yu, Q Wang, S Fu  
-*Cancer Management and Research, in Press*, 2019
+S Wu#, Y Jiao#, Y Zhang, X Ren, P Li, Q Yu, Q Wang, S Fu.  
+*Cancer Management and Research, in Press*, 2019.
 
 **Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**    
-H Song#, Y Jiao#, W Wei, X Ren, C Shen, Z Qiu, Q Yang, Q Wang, QY Luo  
-*European radiology 29 (7), 3945-3954*, 2019 
+H Song#, Y Jiao#, W Wei, X Ren, C Shen, Z Qiu, Q Yang, Q Wang, QY Luo.  
+*European radiology 29 (7), 3945-3954*, 2019. 
 [[pdf](https://link.springer.com/article/10.1007/s00330-019-06074-2)]
 
 **Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
-W Wei#, L Zhang#, Y Jiao, C Tian, C Wang, Y Zhang  
-*IEEE Transactions on Geoscience and Remote Sensing 57 (2), 866-880*, 2018  
+W Wei#, L Zhang#, Y Jiao, C Tian, C Wang, Y Zhang.  
+*IEEE Transactions on Geoscience and Remote Sensing 57 (2), 866-880*, 2018.  
 [[pdf](https://ieeexplore.ieee.org/abstract/document/8447235), [code](https://github.com/jiaoyining/Intracluster-SLRMA)]
 
 ## Patent
 
 **Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
-W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao  
-*China Patent*, 2018  
+W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao.  
+*China Patent*, 2018.  
 
 
 # Teaching

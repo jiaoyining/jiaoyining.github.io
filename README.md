@@ -39,7 +39,7 @@ W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao.
 # Talks
 
 **Radiomics-driven Deep Reinforcement Learning in Detecting Brain Tumor Lesions**  
-*SJTU Graduate Student Academic Forum* ***(1st Prize in Oral Presentation)***, 2019.
+*SJTU Graduate Student Academic Forum* ***(1st Prize)***, 2019.
 
 
 # Teaching

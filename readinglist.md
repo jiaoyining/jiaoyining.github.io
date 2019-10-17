@@ -12,3 +12,7 @@ Snowman, Jo Nesbo
 Simians, Cyborgs, and Women, Donna J Haraway
 
 Ring, Koji Suzuk
+
+Creative Evolution, Henri Bergson 
+
+Shadows, Shusuke Michio 

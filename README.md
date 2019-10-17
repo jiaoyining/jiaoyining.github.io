@@ -1,7 +1,7 @@
 # Yining Jiao
 
 
-<img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo1.png?raw=true" width = "200" height = "180" align="right">I am a M.S. candidate at Med-X Research Institute, School of Biomedical Engineering, Shanghai Jiao Tong University, advised by Professor Qian Wang in the Medical Imaging Computing Lab. My research interest lies on computer-aided diagnosis, feature engineering, radiomics, machine learning.   
+<img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo1.png?raw=true" width = "200" height = "180" align="right">I am a M.S. candidate at Med-X Research Institute, School of Biomedical Engineering, Shanghai Jiao Tong University, advised by Professor Qian Wang in the Medical Imaging Computing Lab. My research interest lies on medical image analysis, computer-aided diagnosis, computer vision, machine learning.   
  
 
 You can reach me at jiaoyining@sjtu.edu.cn and [my Google Scholar](https://scholar.google.com/citations?user=9FVJ-CkAAAAJ&hl=zh-CN).   
@@ -10,7 +10,7 @@ You can reach me at jiaoyining@sjtu.edu.cn and [my Google Scholar](https://schol
 # Publications
 
 ## Conferences
-**cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit***  
+**cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit**  
 Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang.  
 *MICCAI Workshop on Radiomics and Radiogenomics in Neuro-oncology using AI*, ***Oral Presentation(top 10 of submitted papers)***, 2019.  
 [[code](https://github.com/jiaoyining/cuRadiomics)][[slides](https://github.com/jiaoyining/cuRadiomics/tree/master/slides)]

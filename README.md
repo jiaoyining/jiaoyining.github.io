@@ -68,7 +68,7 @@ Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.
 
 **Outstanding Graduate of Shanghai (top 3%), 2020.**  
 **SJTU Excellent Graduate Student Award (top 4%), 2019.**  
-**Silver Medal, Kaggle RSNA Intracranial Hemorrhage Detection Challenge, 2019.**  
+**Silver Medal, Kaggle RSNA Intracranial Hemorrhage Detection Challenge (top 4%), 2019.**  
  
 
 # Hobbies

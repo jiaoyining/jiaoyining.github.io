@@ -17,7 +17,7 @@ My research interest includes machine learning for healthcare and medical image 
 ## Conferences
 **cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit**  
 Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang.  
-*MICCAI Workshop on Radiomics and Radiogenomics in Neuro-oncology using AI*, ***Oral Presentation(top 10 of submitted papers)***, 2019.  
+*MICCAI Workshop on Radiomics and Radiogenomics in Neuro-oncology using AI*, ***Oral Presentation(top 10 of submitted papers)***, October 2019.  
 [[code](https://github.com/jiaoyining/cuRadiomics)][[slides](https://github.com/jiaoyining/cuRadiomics/tree/master/slides)]
 
 **Can Radiomics Features Boost the Performance of Deep Learning upon Histology Images?**  

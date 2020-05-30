@@ -12,7 +12,7 @@ My research interest includes machine learning for healthcare and medical image 
 
 
   
-# Publications & 
+# Publications & Presentations
 
 ## Conferences
 **cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit**  

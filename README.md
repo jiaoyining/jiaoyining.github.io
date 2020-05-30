@@ -1,7 +1,7 @@
 # Yining Jiao
 
 
-<img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo1.png?raw=true" width = "200" height = "180" align="right">I am currently a research intern at Shanghai United Imaging, supervised by [Prof. Qian Wang](https://scholar.google.com/citations?user=m6ZNDewAAAAJ&hl=zh-CN) and [Prof. Dinggang Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN). Previously, I reveived my M.S. degree from Institute for Medical Imaging Technology, School of Biomedical Engineering, Shanghai Jiao Tong University in 2020, under the supervision of [Prof. Qian Wang](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) in the Medical Imaging Computing Lab. I received my B.Eng. degree from [Honors College](http://honors.nwpu.edu.cn/) at [Northwester Polytechnical University](https://www.nwpu.edu.cn/) in 2017. 
+<img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo1.png?raw=true" width = "200" height = "180" align="right">I am currently a research intern at Shanghai United Imaging, supervised by [Prof. Qian Wang](https://scholar.google.com/citations?user=m6ZNDewAAAAJ&hl=zh-CN) and [Prof. Dinggang Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN). Previously, I reveived my M.S. degree from Institute for Medical Imaging Technology, [School of Biomedical Engineering](http://bme.sjtu.edu.cn/En), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in 2020, under the supervision of [Prof. Qian Wang](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) in the Medical Imaging Computing Lab. I received my B.Eng. degree from [Honors College](http://honors.nwpu.edu.cn/) at [Northwester Polytechnical University](https://www.nwpu.edu.cn/) in 2017. 
 My research interest lies on machine learning for healthcare and medical image analysis.   
  
 [CV](https://github.com/jiaoyining/jiaoyining.github.io/blob/master/jyn_resume_v5.pdf)
@@ -63,11 +63,11 @@ W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao.
 # Honors & Awards
 
 
-# Teaching
-At SJTU
-•	Instructed two international students in their research and paper writing, both papers accepted
-•	Instructed four undergraduates to develop a software for medical image analysis
-•	Organized presentations and exams in the Computer Vision in Biomedical Engineering course
+# Cooperation
+At SJTU, I
+**Instructed two international students in their research and paper writing, both papers accepted
+**Instructed four undergraduates to develop a software for medical image analysis
+**Organized presentations and exams in the Computer Vision in Biomedical Engineering course
 
 
 # Hobbies

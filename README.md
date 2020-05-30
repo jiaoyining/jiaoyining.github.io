@@ -18,7 +18,9 @@ My research interest includes machine learning for healthcare and medical image 
 **cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit**  
 Yining Jiao, Oihane Mayo Ijurra, Lichi Zhang, Dinggang Shen, Qian Wang.    
 *MICCAI Workshop on Radiomics and Radiogenomics in Neuro-oncology using AI*, ***Oral Presentation(top 10 of submitted papers)***, October 2019.  
-[[code](https://github.com/jiaoyining/cuRadiomics)][[slides](https://github.com/jiaoyining/cuRadiomics/tree/master/slides)]
+[[paper](https://www.researchgate.net/publication/339463612_cuRadiomics_A_GPU-Based_Radiomics_Feature_Extraction_Toolkit#fullTextFileContent)]
+[[code](https://github.com/jiaoyining/cuRadiomics)]
+[[slides](https://github.com/jiaoyining/cuRadiomics/tree/master/slides)]
 
 **Can Radiomics Features Boost the Performance of Deep Learning upon Histology Images?**  
 Mar Hernández, Yining Jiao, Qian Wang.  

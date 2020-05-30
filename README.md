@@ -41,7 +41,7 @@ Shuang Wu#, Yining Jiao#, Yafang Zhang, Xuhua Ren, Ping Li, Qi Yu, Qing Zhang, Q
 **Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**     
 Hongjun Song#, Yining Jiao#, Weijun Wei, Xuhua Ren, Chentian Shen, Zhongling Qiu, Qingcheng Yang, Qian Wang, Quan-Yong Luo.  
 *European Radiology*, July 2019.  
-[[pdf](https://link.springer.com/article/10.1007/s00330-019-06074-2)]
+[[paper](https://link.springer.com/article/10.1007/s00330-019-06074-2)]
 
 **Quantitative Susceptibility Mapping Based Hybrid Feature Extraction for Diagnosis of Parkinson's Disease**  
 Bin Xiao, Naying He, Qian Wang, Zenghui Cheng, Yining Jiao, E Mark Haacke, Fuhua Yan, Feng Shi.  
@@ -50,7 +50,7 @@ Bin Xiao, Naying He, Qian Wang, Zenghui Cheng, Yining Jiao, E Mark Haacke, Fuhua
 **Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
 Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.  
 *IEEE Transactions on Geoscience and Remote Sensing*, August 2018.  
-[[pdf](https://ieeexplore.ieee.org/abstract/document/8447235)][[code](https://github.com/jiaoyining/Intracluster-SLRMA)]
+[[paper](https://ieeexplore.ieee.org/abstract/document/8447235)][[code](https://github.com/jiaoyining/Intracluster-SLRMA)]
 
 **Reduce slice spacing of MR images by super-resolution learned without ground-truth**  
 Kai Xuan, Liping Si, Lichi Zhang, Zhong Xue, Yining Jiao, Weiwu Yao, Dinggang Shen, Dijia Wu, Qian Wang.  

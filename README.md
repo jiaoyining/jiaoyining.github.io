@@ -12,7 +12,7 @@ My research interest includes machine learning for healthcare and medical image 
 
 
   
-# Publications
+# Publications & 
 
 ## Conferences
 **cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit**  
@@ -56,7 +56,7 @@ Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.
 Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.  
 *China Patent*, 2018.  
 
-# Talks
+## Talks
 
 **Radiomics-driven Deep Reinforcement Learning in Detecting Brain Tumor Lesions**  
 *SJTU Graduate Student Academic Forum,* ***1st Prize***, July 2019.

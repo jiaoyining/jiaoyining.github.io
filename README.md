@@ -20,41 +20,33 @@ Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang.
 *MICCAI Workshop on Radiomics and Radiogenomics in Neuro-oncology using AI*, ***Oral Presentation(top 10 of submitted papers)***, 2019.  
 [[code](https://github.com/jiaoyining/cuRadiomics)][[slides](https://github.com/jiaoyining/cuRadiomics/tree/master/slides)]
 
-**Can Radiomics Features Boost the Performance of Deep Learning upon Histology Images?**
-Mar Hernández, Yining Jiao, Qian Wang.
-IEEE International Conference on Medical Imaging Physics and Engineering, Oral Presentation (Excellent Paper Award), November 2019.
+**Can Radiomics Features Boost the Performance of Deep Learning upon Histology Images?**  
+Mar Hernández, Yining Jiao, Qian Wang.  
+IEEE International Conference on Medical Imaging Physics and Engineering, Oral Presentation (Excellent Paper Award), November 2019.  
 
-**ConvRadiomics: Convolutional Radiomics Feature Extraction Toolkit**
-Oihane Mayo Ijurra, Yining Jiao, Qian Wang.
-IEEE ICMIPE, Oral Presentation, November 2019.
+**ConvRadiomics: Convolutional Radiomics Feature Extraction Toolkit**  
+Oihane Mayo Ijurra, Yining Jiao, Qian Wang.  
+IEEE ICMIPE, Oral Presentation, November 2019.  
 
 
 
 ## Journals
 **Imaging-Based Individualized Response Prediction of Carbon Ion Radiotherapy for Prostate Cancer Patients**  
-Shuang Wu#, Yining Jiao#, Yafang Zhang, Xuhua Ren, Ping Li, Qi Yu, Qing Zhang, Qian Wang, Shen Fu. 
-*Cancer Management and Research*, September 2019.
+Shuang Wu#, Yining Jiao#, Yafang Zhang, Xuhua Ren, Ping Li, Qi Yu, Qing Zhang, Qian Wang, Shen Fu.  
+*Cancer Management and Research*, September 2019.  
 
-**Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**   
-
-Hongjun Song#, Yining Jiao#, Weijun Wei, Xuhua Ren, Chentian Shen, Zhongling Qiu, Qingcheng Yang, Qian Wang, Quan-Yong Luo. 
-
-*European Radiology*, July 2019. 
-
+**Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**     
+Hongjun Song#, Yining Jiao#, Weijun Wei, Xuhua Ren, Chentian Shen, Zhongling Qiu, Qingcheng Yang, Qian Wang, Quan-Yong Luo.  
+*European Radiology*, July 2019.  
 [[pdf](https://link.springer.com/article/10.1007/s00330-019-06074-2)]
 
-**Quantitative Susceptibility Mapping Based Hybrid Feature Extraction for Diagnosis of Parkinson's Disease**
-
-Bin Xiao, Naying He, Qian Wang, Zenghui Cheng, Yining Jiao, E Mark Haacke, Fuhua Yan, Feng Shi.
-
-*NeuroImage: Clinical*, January 2019.
+**Quantitative Susceptibility Mapping Based Hybrid Feature Extraction for Diagnosis of Parkinson's Disease**  
+Bin Xiao, Naying He, Qian Wang, Zenghui Cheng, Yining Jiao, E Mark Haacke, Fuhua Yan, Feng Shi.  
+*NeuroImage: Clinical*, January 2019.  
 
 **Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
-
-Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.
-
-*IEEE Transactions on Geoscience and Remote Sensing*, August 2018.
-
+Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.  
+*IEEE Transactions on Geoscience and Remote Sensing*, August 2018.  
 [[pdf](https://ieeexplore.ieee.org/abstract/document/8447235)][[code](https://github.com/jiaoyining/Intracluster-SLRMA)]
 
 

@@ -72,13 +72,10 @@ Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.
 
 # Cooperation
 
-At SJTU, I
-
-**Instructed two international students in their research and paper writing, both papers accepted**
-
-**Instructed four undergraduates to develop a software for medical image analysis**
-
-**Organized presentations and exams in the Computer Vision in Biomedical Engineering course**
+At SJTU, I  
+· Instructed two international students in their research and paper writing, both papers accepted.  
+· Instructed four undergraduates to develop a software for medical image analysis.  
+· Organized presentations and exams in the Computer Vision in Biomedical Engineering course.  
 
 
 # Hobbies

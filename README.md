@@ -1,4 +1,4 @@
-# Yining Jiao
+# Yining Jiao 焦伊宁
 
 
 <img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo3.png"  width = "170" height = "220" align="right">I am currently a research intern at [United Imaging Intelligence](https://www.uii-ai.com/en), supervised by [Prof. Qian Wang](https://scholar.google.com/citations?user=m6ZNDewAAAAJ&hl=zh-CN) and [Prof. Dinggang Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN). Previously, I reveived my M.S. degree from Institute for Medical Imaging Technology, [School of Biomedical Engineering](http://bme.sjtu.edu.cn/En), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in 2020, under the supervision of [Prof. Qian Wang](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) in the[ Medical Image Computing Lab](http://mic.sjtu.edu.cn/). I received my B.Eng. degree from [Honors College](http://honors.nwpu.edu.cn/) at [Northwestern Polytechnical University](https://www.nwpu.edu.cn/) in 2017. 

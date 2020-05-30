@@ -33,7 +33,6 @@ IEEE ICMIPE, Oral Presentation, November 2019.
 ## Journals
 **Imaging-Based Individualized Response Prediction of Carbon Ion Radiotherapy for Prostate Cancer Patients**  
 Shuang Wu#, Yining Jiao#, Yafang Zhang, Xuhua Ren, Ping Li, Qi Yu, Qing Zhang, Qian Wang, Shen Fu.
-
 *Cancer Management and Research*, September 2019.
 
 **Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**   
@@ -62,9 +61,7 @@ Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.
 ## Patent
 
 **Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
-
 Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.  
-
 *China Patent*, 2018.  
 
 # Talks

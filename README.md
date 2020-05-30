@@ -1,15 +1,12 @@
 # Yining Jiao
 
 
-<img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo1.png?raw=true" width = "200" height = "180" align="right">I am currently a research intern at [United Imaging Intelligence](https://www.uii-ai.com/en), supervised by [Prof. Qian Wang](https://scholar.google.com/citations?user=m6ZNDewAAAAJ&hl=zh-CN) and [Prof. Dinggang Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN). Previously, I reveived my M.S. degree from Institute for Medical Imaging Technology, [School of Biomedical Engineering](http://bme.sjtu.edu.cn/En), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in 2020, under the supervision of [Prof. Qian Wang](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) in the[ Medical Imaging Computing Lab](http://mic.sjtu.edu.cn/). I received my B.Eng. degree from [Honors College](http://honors.nwpu.edu.cn/) at [Northwester Polytechnical University](https://www.nwpu.edu.cn/) in 2017. 
+<img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo1.png?raw=true" width = "200" height = "180" align="right">I am currently a research intern at [United Imaging Intelligence](https://www.uii-ai.com/en), supervised by [Prof. Qian Wang](https://scholar.google.com/citations?user=m6ZNDewAAAAJ&hl=zh-CN) and [Prof. Dinggang Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN). Previously, I reveived my M.S. degree from Institute for Medical Imaging Technology, [School of Biomedical Engineering](http://bme.sjtu.edu.cn/En), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in 2020, under the supervision of [Prof. Qian Wang](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) in the[ Medical Imaging Computing Lab](http://mic.sjtu.edu.cn/). I received my B.Eng. degree from [Honors College](http://honors.nwpu.edu.cn/) at [Northwestern Polytechnical University](https://www.nwpu.edu.cn/) in 2017. 
 My research interest includes machine learning for healthcare and medical image analysis.   
  
-[CV](https://github.com/jiaoyining/jiaoyining.github.io/blob/master/jyn_resume_v5.pdf)
-
-[my Google Scholar](https://scholar.google.com/citations?user=9FVJ-CkAAAAJ&hl=zh-CN)
-
-[Github](https://github.com/jiaoyining)
-
+[CV](https://github.com/jiaoyining/jiaoyining.github.io/blob/master/jyn_resume_v5.pdf)|
+[my Google Scholar](https://scholar.google.com/citations?user=9FVJ-CkAAAAJ&hl=zh-CN)|
+[Github](https://github.com/jiaoyining)|
 [Linkedin](https://www.linkedin.com/in/yining-jiao-16545b1a8/)
 
 
@@ -35,28 +32,28 @@ IEEE ICMIPE, Oral Presentation, November 2019.
 
 ## Journals
 **Imaging-Based Individualized Response Prediction of Carbon Ion Radiotherapy for Prostate Cancer Patients**  
-S Wu#, Y Jiao#, Y Zhang, X Ren, P Li, Q Yu, Q Wang, S Fu.  
+Shuang Wu#, Yining Jiao#, Yafang Zhang, Xuhua Ren, Ping Li, Qi Yu, Qing Zhang, Qian Wang, Shen Fu.
 *Cancer Management and Research*, September 2019.
 
 **Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**    
-H Song#, Y Jiao#, W Wei, X Ren, C Shen, Z Qiu, Q Yang, Q Wang, QY Luo.  
+Hongjun Song#, Yining Jiao#, Weijun Wei, Xuhua Ren, Chentian Shen, Zhongling Qiu, Qingcheng Yang, Qian Wang, Quan-Yong Luo. 
 *European Radiology*, July 2019. 
 [[pdf](https://link.springer.com/article/10.1007/s00330-019-06074-2)]
 
-**Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
-W Wei#, L Zhang#, Y Jiao, C Tian, C Wang, Y Zhang.  
-*IEEE Transactions on Geoscience and Remote Sensing*, August 2018.
-[[pdf](https://ieeexplore.ieee.org/abstract/document/8447235)][[code](https://github.com/jiaoyining/Intracluster-SLRMA)]
-
 **Quantitative Susceptibility Mapping Based Hybrid Feature Extraction for Diagnosis of Parkinson's Disease**
 Bin Xiao, Naying He, Qian Wang, Zenghui Cheng, Yining Jiao, E Mark Haacke, Fuhua Yan, Feng Shi.
-*NeuroImage: Clinical, January 2019.
+*NeuroImage: Clinical*, January 2019.
+
+**Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
+Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.
+*IEEE Transactions on Geoscience and Remote Sensing*, August 2018.
+[[pdf](https://ieeexplore.ieee.org/abstract/document/8447235)][[code](https://github.com/jiaoyining/Intracluster-SLRMA)]
 
 
 ## Patent
 
 **Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
-W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao.  
+Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.  
 *China Patent*, 2018.  
 
 # Talks

@@ -51,7 +51,7 @@ Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.
 
 **Reduce slice spacing of MR images by super-resolution learned without ground-truth**  
 Kai Xuan, Liping Si, Lichi Zhang, Zhong Xue, Yining Jiao, Weiwu Yao, Dinggang Shen, Dijia Wu, Qian Wang.  
-*arXiv preprint*， March 2020.
+*arXiv preprint*, March 2020.
 
 
 ## Patent  

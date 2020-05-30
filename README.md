@@ -22,7 +22,7 @@ Y Jiao, O M Ijurra, L Zhang, D Shen, Q Wang.
 
 **Can Radiomics Features Boost the Performance of Deep Learning upon Histology Images?**  
 Mar Hernández, Yining Jiao, Qian Wang.  
-IEEE International Conference on Medical Imaging Physics and Engineering, Oral Presentation (Excellent Paper Award), November 2019.  
+IEEE International Conference on Medical Imaging Physics and Engineering, ***Oral Presentation (Excellent Paper Award)***, November 2019.  
 
 **ConvRadiomics: Convolutional Radiomics Feature Extraction Toolkit**  
 Oihane Mayo Ijurra, Yining Jiao, Qian Wang.  

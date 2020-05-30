@@ -67,15 +67,7 @@ Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.
 **SJTU Excellent Graduate Student Award (top 4%), 2019.**
 
 **Silver Medal, Kaggle RSNA Intracranial Hemorrhage Detection Challenge, 2019.**
-
-
-
-# Cooperation
-
-At SJTU, I  
-· Instructed two international students in their research and paper writing, both papers accepted.  
-· Instructed four undergraduates to develop a software for medical image analysis.  
-· Organized presentations and exams in the Computer Vision in Biomedical Engineering course.  
+ 
 
 
 # Hobbies

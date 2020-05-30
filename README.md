@@ -63,11 +63,11 @@ Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.
 
 # Honors & Awards
 
-**SJTU Excellent Graduate Student Award (top 4%), 2019.
+**SJTU Excellent Graduate Student Award (top 4%), 2019.**
 
-**Outstanding Graduate of Shanghai (top 3%), 2020.
+**Outstanding Graduate of Shanghai (top 3%), 2020.**
 
-**Silver Medal, Kaggle RSNA Intracranial Hemorrhage Detection Challenge, 2019.
+**Silver Medal, Kaggle RSNA Intracranial Hemorrhage Detection Challenge, 2019.**
 
 
 
@@ -75,11 +75,11 @@ Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.
 
 At SJTU, I
 
-**Instructed two international students in their research and paper writing, both papers accepted
+**Instructed two international students in their research and paper writing, both papers accepted**
 
-**Instructed four undergraduates to develop a software for medical image analysis
+**Instructed four undergraduates to develop a software for medical image analysis**
 
-**Organized presentations and exams in the Computer Vision in Biomedical Engineering course
+**Organized presentations and exams in the Computer Vision in Biomedical Engineering course**
 
 
 # Hobbies

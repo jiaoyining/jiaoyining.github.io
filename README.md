@@ -50,8 +50,7 @@ Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.
 [[pdf](https://ieeexplore.ieee.org/abstract/document/8447235)][[code](https://github.com/jiaoyining/Intracluster-SLRMA)]
 
 
-## Patent
-
+## Patent  
 **Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
 Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.  
 *China Patent*, 2018.  

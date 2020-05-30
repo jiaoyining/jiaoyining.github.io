@@ -26,7 +26,7 @@ IEEE International Conference on Medical Imaging Physics and Engineering, Oral P
 
 **ConvRadiomics: Convolutional Radiomics Feature Extraction Toolkit**  
 Oihane Mayo Ijurra, Yining Jiao, Qian Wang.  
-IEEE ICMIPE, Oral Presentation, November 2019.  
+IEEE International Conference on Medical Imaging Physics and Engineering, Oral Presentation, November 2019.  
 
 
 

@@ -1,13 +1,17 @@
 # Yining Jiao
 
 
-<img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo1.png?raw=true" width = "200" height = "180" align="right">I am currently a research intern at Shanghai United Imaging, supervised by [Prof. Qian Wang](https://scholar.google.com/citations?user=m6ZNDewAAAAJ&hl=zh-CN) and [Prof. Dinggang Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN). Previously, I reveived my M.S. degree from Institute for Medical Imaging Technology, [School of Biomedical Engineering](http://bme.sjtu.edu.cn/En), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in 2020, under the supervision of [Prof. Qian Wang](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) in the Medical Imaging Computing Lab. I received my B.Eng. degree from [Honors College](http://honors.nwpu.edu.cn/) at [Northwester Polytechnical University](https://www.nwpu.edu.cn/) in 2017. 
-My research interest lies on machine learning for healthcare and medical image analysis.   
+<img src="https://github.com/jiaoyining/jiaoyining.github.io/blob/master/photo1.png?raw=true" width = "200" height = "180" align="right">I am currently a research intern at [United Imaging Intelligence](https://www.uii-ai.com/en), supervised by [Prof. Qian Wang](https://scholar.google.com/citations?user=m6ZNDewAAAAJ&hl=zh-CN) and [Prof. Dinggang Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN). Previously, I reveived my M.S. degree from Institute for Medical Imaging Technology, [School of Biomedical Engineering](http://bme.sjtu.edu.cn/En), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in 2020, under the supervision of [Prof. Qian Wang](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) in the[ Medical Imaging Computing Lab](http://mic.sjtu.edu.cn/). I received my B.Eng. degree from [Honors College](http://honors.nwpu.edu.cn/) at [Northwester Polytechnical University](https://www.nwpu.edu.cn/) in 2017. 
+My research interest includes machine learning for healthcare and medical image analysis.   
  
 [CV](https://github.com/jiaoyining/jiaoyining.github.io/blob/master/jyn_resume_v5.pdf)
+
 [my Google Scholar](https://scholar.google.com/citations?user=9FVJ-CkAAAAJ&hl=zh-CN)
+
 [Github](https://github.com/jiaoyining)
+
 [Linkedin](https://www.linkedin.com/in/yining-jiao-16545b1a8/)
+
 
 
   
@@ -58,15 +62,26 @@ W Wei, C Wang, L Zhang, Y,Zhang, Y Jiao.
 # Talks
 
 **Radiomics-driven Deep Reinforcement Learning in Detecting Brain Tumor Lesions**  
-*SJTU Graduate Student Academic Forum,* ***1st Prize***, 2019.
+*SJTU Graduate Student Academic Forum,* ***1st Prize***, July 2019.
 
 # Honors & Awards
 
+**SJTU Excellent Graduate Student Award (top 4%), 2019.
+
+**Outstanding Graduate of Shanghai (top 3%), 2020.
+
+**Silver Medal, Kaggle RSNA Intracranial Hemorrhage Detection Challenge, 2019.
+
+
 
 # Cooperation
+
 At SJTU, I
+
 **Instructed two international students in their research and paper writing, both papers accepted
+
 **Instructed four undergraduates to develop a software for medical image analysis
+
 **Organized presentations and exams in the Computer Vision in Biomedical Engineering course
 
 

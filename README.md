@@ -25,11 +25,12 @@ Yining Jiao, Oihane Mayo Ijurra, Lichi Zhang, Dinggang Shen, Qian Wang.
 **Can Radiomics Features Boost the Performance of Deep Learning upon Histology Images?**  
 Mar Hernández, Yining Jiao, Qian Wang.  
 IEEE International Conference on Medical Imaging Physics and Engineering, ***Oral Presentation (Excellent Paper Award)***, November 2019.  
+[[paper](https://ieeexplore.ieee.org/abstract/document/9098220/)]
 
 **ConvRadiomics: Convolutional Radiomics Feature Extraction Toolkit**  
 Oihane Mayo Ijurra, Yining Jiao, Qian Wang.  
 IEEE International Conference on Medical Imaging Physics and Engineering, Oral Presentation, November 2019.  
-
+[[paper](https://ieeexplore.ieee.org/abstract/document/9098212)]
 
 
 ## Journals
@@ -55,7 +56,7 @@ Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.
 
 **Reduce slice spacing of MR images by super-resolution learned without ground-truth**  
 Kai Xuan, Liping Si, Lichi Zhang, Zhong Xue, Yining Jiao, Weiwu Yao, Dinggang Shen, Dijia Wu, Qian Wang.  
-*arXiv preprint*, March 2020.
+*arXiv preprint*, March 2020.  
 [[paper](https://arxiv.org/abs/2003.12627)]
 
 ## Patent  

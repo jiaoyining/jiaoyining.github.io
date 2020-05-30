@@ -36,6 +36,7 @@ IEEE International Conference on Medical Imaging Physics and Engineering, Oral P
 **Imaging-Based Individualized Response Prediction of Carbon Ion Radiotherapy for Prostate Cancer Patients**  
 Shuang Wu#, Yining Jiao#, Yafang Zhang, Xuhua Ren, Ping Li, Qi Yu, Qing Zhang, Qian Wang, Shen Fu.  
 *Cancer Management and Research*, September 2019.  
+[[paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6817347/pdf/cmar-11-9121.pdf)]
 
 **Can pretreatment 18F-FDG PET tumor texture features predict the outcomes of osteosarcoma treated by neoadjuvant chemotherapy?**     
 Hongjun Song#, Yining Jiao#, Weijun Wei, Xuhua Ren, Chentian Shen, Zhongling Qiu, Qingcheng Yang, Qian Wang, Quan-Yong Luo.  

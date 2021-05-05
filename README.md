@@ -5,7 +5,6 @@
 My research interest includes machine learning for healthcare and medical image analysis.  Also, I am always open to new challenges. 
 
 Welcome to reach me at:   
-[CV](https://jiaoyining.github.io/jyn_resume_v5.pdf) |
 [Google Scholar](https://scholar.google.com/citations?user=9FVJ-CkAAAAJ&hl=zh-CN) |
 [Github](https://github.com/jiaoyining) |
 [Linkedin](https://www.linkedin.com/in/yining-jiao-16545b1a8/)

@@ -49,20 +49,12 @@ Bin Xiao, Naying He, Qian Wang, Zenghui Cheng, Yining Jiao, E Mark Haacke, Fuhua
 *NeuroImage: Clinical*, January 2019.  
 [[paper](https://www.sciencedirect.com/science/article/pii/S2213158219304176)]
 
-**Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
-Wei Wei#, Lei Zhang#, Yining Jiao, Chunna Tian, Cong Wang, Yanning Zhang.  
-*IEEE Transactions on Geoscience and Remote Sensing*, August 2018.  
-[[paper](https://ieeexplore.ieee.org/abstract/document/8447235)][[code](https://github.com/jiaoyining/Intracluster-SLRMA)]
-
 **Reduce slice spacing of MR images by super-resolution learned without ground-truth**  
 Kai Xuan, Liping Si, Lichi Zhang, Zhong Xue, Yining Jiao, Weiwu Yao, Dinggang Shen, Dijia Wu, Qian Wang.  
 *arXiv preprint*, March 2020.  
 [[paper](https://arxiv.org/abs/2003.12627)]
 
-## Patent  
-**Intracluster structured low-rank matrix analysis method for hyperspectral denoising**  
-Wei Wei, Cong Wang, Lei Zhang, Yanning Zhang, Yining Jiao.  
-*China Patent*, 2018.  
+ 
 
 ## Talks
 

@@ -12,7 +12,7 @@ Welcome to reach me at:
 
 
   
-# Publications & Presentations
+# Publications
 
 ## Conferences
 **cuRadiomics: A GPU-based Radiomics Feature Extraction Toolkit**  
@@ -54,12 +54,7 @@ Kai Xuan, Liping Si, Lichi Zhang, Zhong Xue, Yining Jiao, Weiwu Yao, Dinggang Sh
 *arXiv preprint*, March 2020.  
 [[paper](https://arxiv.org/abs/2003.12627)]
 
- 
 
-## Talks
-
-**Radiomics-driven Deep Reinforcement Learning in Detecting Brain Tumor Lesions**  
-*SJTU Graduate Student Academic Forum,* ***1st Prize***, July 2019.
 
 # Honors & Awards
 

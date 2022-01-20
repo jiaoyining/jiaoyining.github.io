@@ -64,6 +64,6 @@ Kai Xuan, Liping Si, Lichi Zhang, Zhong Xue, Yining Jiao, Weiwu Yao, Dinggang Sh
  
 
 # Hobbies
-In my free time, I enjoy writing poems. I was invited to *Chinese Poetry New Discovery* Poetry Camp in 2018 as one of the twelve selected campers in China and some of my works were published in *Poetry Periodical*,*Chinese Poetry*, etc.
+In my free time, I enjoy writing poems. I was invited to *Chinese Poetry New Discovery* Poetry Camp in 2018 as one of the twelve selected campers and some of my works were published in *Poetry Periodical*,*Chinese Poetry*, etc.
 
 

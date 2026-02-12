@@ -47,6 +47,11 @@
             line-height: 1.5;
             min-height: 100vh;
             -webkit-font-smoothing: antialiased;
+            scroll-behavior: smooth;
+        }
+
+        [id] {
+            scroll-margin-top: 56px;
         }
 
         a {
@@ -59,11 +64,44 @@
             color: var(--link-hover);
         }
 
+        /* ── Nav Bar ── */
+        .nav-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, .92);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 60px;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .nav-bar a {
+            font-size: 0.78em;
+            color: var(--text-dim);
+            padding: 10px 14px;
+            border-bottom: 2px solid transparent;
+            transition: color .2s, border-color .2s;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+
+        .nav-bar a:hover,
+        .nav-bar a.active {
+            color: var(--text-bright);
+            border-bottom-color: var(--accent);
+        }
+
         /* ── Layout ── */
         .page-wrapper {
             display: block;
             margin: 0;
-            padding: 50px 60px 0;
+            padding: 86px 60px 0;
             min-height: 100vh;
         }
 
@@ -397,8 +435,21 @@
 
         /* ── Responsive ── */
         @media (max-width: 900px) {
+            .nav-bar {
+                padding: 0 16px;
+                gap: 2px;
+                overflow-x: auto;
+                justify-content: flex-start;
+            }
+
+            .nav-bar a {
+                font-size: 0.72em;
+                padding: 8px 10px;
+                white-space: nowrap;
+            }
+
             .page-wrapper {
-                padding: 40px 24px 0;
+                padding: 80px 24px 0;
             }
 
             .sidebar {
@@ -445,6 +496,17 @@
 
 <body>
 
+    <nav class="nav-bar">
+        <a href="#about">About</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#awards">Awards</a>
+        <a href="#experience">Experience</a>
+        <a href="#services">Services</a>
+        <a href="#misc">Misc</a>
+    </nav>
+
     <div class="page-wrapper">
 
         <!-- ========== LEFT SIDEBAR ========== -->
@@ -470,7 +532,7 @@
         <!-- ========== RIGHT MAIN CONTENT ========== -->
         <main class="main-content">
 
-            <h2>About Me</h2>
+            <h2 id="about">About Me</h2>
             <p class="about-text">
                 I am a Postdoctoral Researcher at the Department of Neurological Surgery, UC San Diego.
                 I received my Ph.D. in Computer Science from <a href="https://biag.cs.unc.edu/">UNC-BIAG Lab</a>,
@@ -488,7 +550,7 @@
                 <a href="https://www.nwpu.edu.cn/">Northwestern Polytechnical University</a> in 2017.
             </p>
 
-            <h2>Research Highlights</h2>
+            <h2 id="highlights">Research Highlights</h2>
             <p class="research-statement">
                 I build AI that knows what it knows — and admits what it doesn't. My research centers on spatiotemporal
                 representation learning with a focus on interpretability and uncertainty quantification, with
@@ -501,7 +563,7 @@
             </ul>
 
             <!-- ── News ── -->
-            <h2>News</h2>
+            <h2 id="news">News</h2>
             <ul class="item-list">
                 <li><strong>2026/02:</strong> Our paper PRISM on uncertainty-aware shape modeling is now available as
                     preprint.</li>
@@ -510,7 +572,7 @@
             </ul>
 
             <!-- ── Publications ── -->
-            <h2>Selected Publications</h2>
+            <h2 id="publications">Selected Publications</h2>
 
             <div class="pub-item">
                 <img src="./indexpics/prism.png" alt="PRISM" />
@@ -605,7 +667,7 @@
             </div>
 
             <!-- ── Awards ── -->
-            <h2>Honors &amp; Awards</h2>
+            <h2 id="awards">Honors &amp; Awards</h2>
             <ul class="item-list">
                 <li><span class="item-title">ICML Workshop on Computational Biology Fellowship</span>, <span
                         class="item-meta">2021.</span></li>
@@ -618,7 +680,7 @@
             </ul>
 
             <!-- ── Experience ── -->
-            <h2>Experiences</h2>
+            <h2 id="experience">Experiences</h2>
 
             <div class="exp-item">
                 <div class="exp-header">
@@ -660,7 +722,7 @@
             </div>
 
             <!-- ── Services ── -->
-            <h2>Academic Services</h2>
+            <h2 id="services">Academic Services</h2>
             <div class="services">
                 <p><strong>Conference Reviews:</strong> CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AISTATS, AAAI, MICCAI.
                 </p>
@@ -668,7 +730,7 @@
             </div>
 
             <!-- ── Misc ── -->
-            <h2>Misc</h2>
+            <h2 id="misc">Misc</h2>
             <div class="misc">
                 <p>In my free time, I practice Tarot de Marseille and create knowledge sharing content about tarot
                     reading — feel free to reach out if you're interested! I also enjoy gardening and writing poems. I
@@ -685,6 +747,24 @@
     </div>
 
     <script>lucide.createIcons();</script>
+    <script>
+        // Highlight active nav link on scroll
+        (function () {
+            const navLinks = document.querySelectorAll('.nav-bar a');
+            const sections = Array.from(navLinks).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+            function onScroll() {
+                let current = '';
+                for (const s of sections) {
+                    if (s.getBoundingClientRect().top <= 80) current = s.id;
+                }
+                navLinks.forEach(a => {
+                    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+                });
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+        })();
+    </script>
 </body>
 
 </html>

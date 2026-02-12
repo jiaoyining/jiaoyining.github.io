@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="myIcon.ico" />
-    <meta name="keywords" content="Yining Jiao, Jiao Yining, CS, UNC, UNC-Chapel Hill, UCSD, SJTU, Shanghai Jiao Tong University" />
+    <meta name="keywords"
+        content="Yining Jiao, Jiao Yining, CS, UNC, UNC-Chapel Hill, UCSD, SJTU, Shanghai Jiao Tong University" />
     <meta name="description" content="Yining Jiao's Homepage" />
     <meta name="google-site-verification" content="0eSNitBfkotnYTljBUNk8t6a6d5F-0iRAwWpEcOFKnU" />
     <title>Yining Jiao</title>
     <!-- serif font from system stack -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         :root {
             --bg: #ffffff;
-            --bg-sidebar: #f5f3f7;
-            --border: #ddd8e0;
-            --text: #4a4a4a;
-            --text-dim: #5e5e5e;
-            --text-bright: #2e2e2e;
-            --accent: #7b6b8a;
-            --accent-dim: #6a5a7a;
-            --link: #6e5a82;
-            --link-hover: #8a6fa5;
-            --card-hover: #f0edf3;
+            --bg-sidebar: #f8f6fa;
+            --border: #e2dce8;
+            --text: #3d3d3d;
+            --text-dim: #6b6b6b;
+            --text-bright: #1e1e1e;
+            --accent: #7c4dff;
+            --accent-dim: #6a3de8;
+            --link: #6d28d9;
+            --link-hover: #8b5cf6;
+            --card-hover: #f3f0f8;
+            --highlight: #e040a0;
         }
 
-        html, body {
+        html,
+        body {
             background: var(--bg);
             color: var(--text);
             font-family: Georgia, 'Times New Roman', serif;
@@ -37,8 +45,15 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        a { color: var(--link); text-decoration: none; transition: color .2s; }
-        a:hover { color: var(--link-hover); }
+        a {
+            color: var(--link);
+            text-decoration: none;
+            transition: color .2s;
+        }
+
+        a:hover {
+            color: var(--link-hover);
+        }
 
         /* ── Layout ── */
         .page-wrapper {
@@ -71,14 +86,14 @@
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid var(--border);
-            box-shadow: 0 4px 20px rgba(0,0,0,.08);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, .08);
             margin-bottom: 28px;
             transition: transform .3s, box-shadow .3s;
         }
 
         .sidebar img.profile:hover {
             transform: scale(1.04);
-            box-shadow: 0 8px 30px rgba(0,0,0,.12);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, .12);
         }
 
         .sidebar h1 {
@@ -87,13 +102,6 @@
             color: var(--text-bright);
             margin-bottom: 4px;
             letter-spacing: -0.03em;
-        }
-
-        .sidebar .name-cn {
-            font-size: 0.92em;
-            color: var(--text-dim);
-            margin-bottom: 20px;
-            letter-spacing: 0.15em;
         }
 
         .sidebar .title-role {
@@ -212,18 +220,20 @@
 
         .pub-item:hover {
             background: var(--card-hover);
-            box-shadow: 0 4px 16px rgba(0,0,0,.06);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, .06);
         }
 
         .pub-item img {
-            width: 320px;
-            min-width: 320px;
+            width: 400px;
+            min-width: 400px;
             height: 180px;
             object-fit: cover;
             border-radius: 10px;
         }
 
-        .pub-info { flex: 1; }
+        .pub-info {
+            flex: 1;
+        }
 
         .pub-title {
             font-weight: 600;
@@ -251,7 +261,7 @@
         }
 
         .pub-venue .highlight {
-            color: var(--accent);
+            color: var(--highlight);
             font-weight: 700;
         }
 
@@ -275,7 +285,10 @@
         }
 
         /* ── Lists ── */
-        .item-list { list-style: none; padding: 0; }
+        .item-list {
+            list-style: none;
+            padding: 0;
+        }
 
         .item-list li {
             margin-bottom: 14px;
@@ -283,9 +296,19 @@
             font-size: 0.92em;
         }
 
-        .item-list .item-title { color: var(--text-bright); }
-        .item-list .item-meta { color: var(--text-dim); font-size: 0.88em; }
-        .item-list .item-highlight { color: var(--accent); font-weight: 600; }
+        .item-list .item-title {
+            color: var(--text-bright);
+        }
+
+        .item-list .item-meta {
+            color: var(--text-dim);
+            font-size: 0.88em;
+        }
+
+        .item-list .item-highlight {
+            color: var(--highlight);
+            font-weight: 600;
+        }
 
         /* Experience */
         .exp-item {
@@ -300,7 +323,7 @@
         .exp-item:hover {
             border-left-color: var(--accent);
             background: var(--card-hover);
-            box-shadow: 0 4px 16px rgba(0,0,0,.06);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, .06);
         }
 
         .exp-header {
@@ -310,17 +333,42 @@
             flex-wrap: wrap;
         }
 
-        .exp-place { color: var(--text-bright); font-weight: 600; font-size: 0.93em; }
-        .exp-date { color: var(--text-dim); font-size: 0.82em; }
-        .exp-role { color: var(--text); font-size: 0.86em; }
-        .exp-topic { color: var(--text-dim); font-size: 0.82em; }
+        .exp-place {
+            color: var(--text-bright);
+            font-weight: 600;
+            font-size: 0.93em;
+        }
+
+        .exp-date {
+            color: var(--text-dim);
+            font-size: 0.82em;
+        }
+
+        .exp-role {
+            color: var(--text);
+            font-size: 0.86em;
+        }
+
+        .exp-topic {
+            color: var(--text-dim);
+            font-size: 0.82em;
+        }
 
         /* Services */
-        .services p { margin-bottom: 8px; font-size: 0.92em; }
-        .services strong { color: var(--text-bright); }
+        .services p {
+            margin-bottom: 8px;
+            font-size: 0.92em;
+        }
+
+        .services strong {
+            color: var(--text-bright);
+        }
 
         /* Misc */
-        .misc p { font-size: 0.92em; color: var(--text-dim); }
+        .misc p {
+            font-size: 0.92em;
+            color: var(--text-dim);
+        }
 
         /* Footer */
         .footer {
@@ -334,251 +382,308 @@
 
         /* ── Responsive ── */
         @media (max-width: 900px) {
-            .page-wrapper { flex-direction: column; }
+            .page-wrapper {
+                flex-direction: column;
+            }
+
             .sidebar {
-                width: 100%; min-width: 100%; height: auto;
-                position: static; border-right: none;
+                width: 100%;
+                min-width: 100%;
+                height: auto;
+                position: static;
+                border-right: none;
                 border-bottom: 1px solid var(--border);
                 padding: 40px 24px 32px;
             }
-            .sidebar img.profile { width: 160px; height: 160px; }
-            .main-content { padding: 32px 24px; }
-            .pub-item { flex-direction: column; padding: 12px; }
-            .pub-item img { width: 100%; min-width: 0; height: auto; }
+
+            .sidebar img.profile {
+                width: 160px;
+                height: 160px;
+            }
+
+            .main-content {
+                padding: 32px 24px;
+            }
+
+            .pub-item {
+                flex-direction: column;
+                padding: 12px;
+            }
+
+            .pub-item img {
+                width: 100%;
+                min-width: 0;
+                height: auto;
+            }
         }
     </style>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create','UA-87320911-1','auto');
-        ga('send','pageview');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-87320911-1', 'auto');
+        ga('send', 'pageview');
     </script>
 </head>
+
 <body>
 
-<div class="page-wrapper">
+    <div class="page-wrapper">
 
-    <!-- ========== LEFT SIDEBAR ========== -->
-    <aside class="sidebar">
-        <img class="profile" src="./pic/profile1.png" alt="Yining Jiao" />
-        <h1>Yining (Ina) Jiao</h1>
-        <div class="name-cn">焦 伊 宁</div>
-        <div class="title-role">Postdoctoral Researcher</div>
-        <div class="affiliation">
-            Department of Neurological Surgery<br />
-            UC San Diego
-        </div>
-        <ul class="link-list">
-            <li><a href="https://scholar.google.com/citations?user=9FVJ-CkAAAAJ&hl=en" target="_blank"><i data-lucide="graduation-cap"></i> Google Scholar</a></li>
-            <li><a href="https://github.com/jiaoyining" target="_blank"><i data-lucide="github"></i> GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/yining-jiao-16545b1a8/" target="_blank"><i data-lucide="linkedin"></i> LinkedIn</a></li>
-            <li><a href="./jyn_resume_v3.pdf" target="_blank"><i data-lucide="file-text"></i> CV / Resume</a></li>
-            <li><a href="mailto:jyn@cs.unc.edu"><i data-lucide="mail"></i> jyn@cs.unc.edu</a></li>
-        </ul>
-    </aside>
-
-    <!-- ========== RIGHT MAIN CONTENT ========== -->
-    <main class="main-content">
-
-        <h2>About Me</h2>
-        <p class="about-text">
-            I am a Postdoctoral Researcher at the Department of Neurological Surgery, UC San Diego.
-            I received my Ph.D. in Computer Science from <a href="https://biag.cs.unc.edu/">UNC-BIAG Lab</a>,
-            <a href="https://www.unc.edu/">UNC-Chapel Hill</a> in 2025,
-            advised by <a href="https://biag.cs.unc.edu/author/marc-niethammer/">Prof. Marc Niethammer</a>.
-            Previously, I received my M.Sc. degree from
-            <a href="http://en.bme.sjtu.edu.cn/">School of Biomedical Engineering</a>,
-            <a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a> in 2020,
-            under the supervision of
-            <a href="https://bme.shanghaitech.edu.cn/bme_en/2021/0205/c8252a108974/page.htm">Prof. Qian Wang</a>
-            in the <a href="http://mic.sjtu.edu.cn">Medical Imaging Computing Lab</a>.
-            Before that, I received my B.Eng. degree from
-            <a href="https://honors.nwpu.edu.cn/">Honors College</a> at
-            <a href="https://www.nwpu.edu.cn/">Northwestern Polytechnical University</a> in 2017.
-        </p>
-        <p class="research-statement">
-            I build AI that knows what it knows — and admits what it doesn't. My research centers on spatiotemporal
-            representation learning with a focus on interpretability and uncertainty quantification, drawing on tools
-            from geometry, statistics, and neural representations to tackle problems in healthcare and beyond.
-        </p>
-
-        <!-- ── Publications ── -->
-        <h2>Selected Publications</h2>
-
-        <div class="pub-item">
-            <img src="./indexpics/prism.png" alt="PRISM" />
-            <div class="pub-info">
-                <div class="pub-title">PRISM: Probabilistic Neural Shape Representation with Fisher Information for Uncertainty-Aware Statistical Shape Analysis</div>
-                <div class="pub-authors"><span class="me">Yining Jiao</span>, Sreekalyani Bhamidi, Carlton Jude Zdanski, Julia S Kimbell, Andrew Prince, Cameron P Worden, Samuel Kirse, Christopher Rutter, Benjamin H Shields, Jisan Mahmud, Marc Niethammer</div>
-                <div class="pub-venue">preprint</div>
-                <div class="pub-links"><a href="#" target="_blank">paper</a></div>
+        <!-- ========== LEFT SIDEBAR ========== -->
+        <aside class="sidebar">
+            <img class="profile" src="./pic/profile1.png" alt="Yining Jiao" />
+            <h1>Yining (Ina) Jiao</h1>
+            <div class="title-role">Postdoctoral Researcher</div>
+            <div class="affiliation">
+                Department of Neurological Surgery<br />
+                UC San Diego
             </div>
-        </div>
+            <ul class="link-list">
+                <li><a href="https://scholar.google.com/citations?user=9FVJ-CkAAAAJ&hl=en" target="_blank"><i
+                            data-lucide="graduation-cap"></i> Google Scholar</a></li>
+                <li><a href="https://github.com/jiaoyining" target="_blank"><i data-lucide="github"></i> GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/yining-jiao-16545b1a8/" target="_blank"><i
+                            data-lucide="linkedin"></i> LinkedIn</a></li>
+                <li><a href="./jyn_resume_v3.pdf" target="_blank"><i data-lucide="file-text"></i> CV / Resume</a></li>
+                <li><a href="mailto:jyn@cs.unc.edu"><i data-lucide="mail"></i> jyn@cs.unc.edu</a></li>
+            </ul>
+        </aside>
 
-        <div class="pub-item">
-            <img src="./indexpics/LucidAtlas.png" alt="LucidAtlas" />
-            <div class="pub-info">
-                <div class="pub-title">LucidAtlas: Learning Uncertainty-Aware, Covariate-Disentangled, Individualized Atlas Representations</div>
-                <div class="pub-authors"><span class="me">Yining Jiao</span>, Sreekalyani Bhamidi, Carlton Jude Zdanski, Huaizhi Qu, Julia S Kimbell, Andrew Prince, Cameron P Worden, Samuel Kirse, Christopher Rutter, Benjamin H Shields, Jisan Mahmud, Tianlong Chen, Marc Niethammer</div>
-                <div class="pub-venue">preprint</div>
-                <div class="pub-links"><a href="https://openreview.net/forum?id=3FbNwC8ua8" target="_blank">paper</a></div>
-            </div>
-        </div>
+        <!-- ========== RIGHT MAIN CONTENT ========== -->
+        <main class="main-content">
 
-        <div class="pub-item">
-            <img src="./indexpics/neuraloct.png" alt="NeuralOCT" />
-            <div class="pub-info">
-                <div class="pub-title">NeuralOCT: Airway OCT Analysis via Neural Fields</div>
-                <div class="pub-authors"><span class="me">Yining Jiao</span>, Amy Oldenburg, Yinghan Xu, Srikamal Soundararajan, Carlton Zdanski, Julia Kimbell, Marc Niethammer</div>
-                <div class="pub-venue">preprint</div>
-                <div class="pub-links"><a href="https://arxiv.org/abs/2403.10622" target="_blank">paper</a></div>
-            </div>
-        </div>
+            <h2>About Me</h2>
+            <p class="about-text">
+                I am a Postdoctoral Researcher at the Department of Neurological Surgery, UC San Diego.
+                I received my Ph.D. in Computer Science from <a href="https://biag.cs.unc.edu/">UNC-BIAG Lab</a>,
+                <a href="https://www.unc.edu/">UNC-Chapel Hill</a> in 2025,
+                advised by <a href="https://biag.cs.unc.edu/author/marc-niethammer/">Prof. Marc Niethammer</a>.
+                Previously, I received my M.Sc. degree from
+                <a href="http://en.bme.sjtu.edu.cn/">School of Biomedical Engineering</a>,
+                <a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a> in 2020,
+                under the supervision of
+                <a href="https://bme.shanghaitech.edu.cn/bme_en/2021/0205/c8252a108974/page.htm">Prof. Qian Wang</a>
+                in the <a href="http://mic.sjtu.edu.cn">Medical Imaging Computing Lab</a>.
+                Before that, I received my B.Eng. degree from
+                <a href="https://honors.nwpu.edu.cn/">Honors College</a> at
+                <a href="https://www.nwpu.edu.cn/">Northwestern Polytechnical University</a> in 2017.
+            </p>
+            <p class="research-statement">
+                I build AI that knows what it knows — and admits what it doesn't. My research centers on spatiotemporal
+                representation learning with a focus on interpretability and uncertainty quantification, drawing on
+                tools
+                from geometry, statistics, and neural representations to tackle problems in healthcare and beyond.
+            </p>
 
-        <div class="pub-item">
-            <img src="./indexpics/naisr.png" alt="NAISR" />
-            <div class="pub-info">
-                <div class="pub-title">NAISR: A 3D Neural Additive Model for Interpretable Shape Representation</div>
-                <div class="pub-authors"><span class="me">Yining Jiao</span>, Carlton Zdanski, Julia Kimbell, Andrew Prince, Cameron Worden, Samuel Kirse, Christopher Rutter, Benjamin Shields, William Dunn, Jisan Mahmud, Marc Niethammer</div>
-                <div class="pub-venue">ICLR 2024. <span class="highlight">Spotlight, top 5%.</span></div>
-                <div class="pub-links">
-                    <a href="https://uncbiag.github.io/NAISR/" target="_blank">project</a>
-                    <a href="https://www.youtube.com/watch?v=8wSIIPAvlLI" target="_blank">video</a>
-                    <a href="https://arxiv.org/abs/2303.09234" target="_blank">paper</a>
-                    <a href="https://github.com/uncbiag/NAISR" target="_blank">code</a>
+            <!-- ── Publications ── -->
+            <h2>Selected Publications</h2>
+
+            <div class="pub-item">
+                <img src="./indexpics/prism.png" alt="PRISM" />
+                <div class="pub-info">
+                    <div class="pub-title">PRISM: Probabilistic Neural Shape Representation with Fisher Information for
+                        Uncertainty-Aware Statistical Shape Analysis</div>
+                    <div class="pub-authors"><span class="me">Yining Jiao</span>, Sreekalyani Bhamidi, Carlton Jude
+                        Zdanski, Julia S Kimbell, Andrew Prince, Cameron P Worden, Samuel Kirse, Christopher Rutter,
+                        Benjamin H Shields, Jisan Mahmud, Marc Niethammer</div>
+                    <div class="pub-venue">preprint</div>
+                    <div class="pub-links"><a href="#" target="_blank">paper</a></div>
                 </div>
             </div>
-        </div>
 
-        <div class="pub-item">
-            <img src="./indexpics/curadiomics.png" alt="cuRadiomics" />
-            <div class="pub-info">
-                <div class="pub-title">cuRadiomics: A GPU-Based Radiomics Feature Extraction Toolkit</div>
-                <div class="pub-authors"><span class="me">Yining Jiao</span>, Oihane Mayo Ijurra, Lichi Zhang, Dinggang Shen, Qian Wang</div>
-                <div class="pub-venue">MICCAI Workshop on Radiomics and Radiogenomics in Neuro-oncology using AI. <span class="highlight">Oral, top 10 of submissions.</span></div>
-                <div class="pub-links">
-                    <a href="https://link.springer.com/chapter/10.1007/978-3-030-40124-5_5" target="_blank">paper</a>
-                    <a href="https://github.com/jiaoyining/cuRadiomics" target="_blank">code</a>
+            <div class="pub-item">
+                <img src="./indexpics/LucidAtlas.png" alt="LucidAtlas" />
+                <div class="pub-info">
+                    <div class="pub-title">LucidAtlas: Learning Uncertainty-Aware, Covariate-Disentangled,
+                        Individualized Atlas Representations</div>
+                    <div class="pub-authors"><span class="me">Yining Jiao</span>, Sreekalyani Bhamidi, Carlton Jude
+                        Zdanski, Huaizhi Qu, Julia S Kimbell, Andrew Prince, Cameron P Worden, Samuel Kirse, Christopher
+                        Rutter, Benjamin H Shields, Jisan Mahmud, Tianlong Chen, Marc Niethammer</div>
+                    <div class="pub-venue">preprint</div>
+                    <div class="pub-links"><a href="https://openreview.net/forum?id=3FbNwC8ua8"
+                            target="_blank">paper</a></div>
                 </div>
             </div>
-        </div>
 
-        <div class="pub-item">
-            <img src="./indexpics/isegformer.webp" alt="iSegFormer" />
-            <div class="pub-info">
-                <div class="pub-title">iSegFormer: Interactive Segmentation via Transformers with Application to 3D Knee MR Images</div>
-                <div class="pub-authors">Qin Liu, Zhenlin Xu, <span class="me">Yining Jiao</span>, Marc Niethammer</div>
-                <div class="pub-venue">MICCAI 2022.</div>
-                <div class="pub-links">
-                    <a href="https://arxiv.org/pdf/2112.11325.pdf" target="_blank">paper</a>
-                    <a href="https://github.com/uncbiag/iSegFormer" target="_blank">code</a>
+            <div class="pub-item">
+                <img src="./indexpics/neuraloct.png" alt="NeuralOCT" />
+                <div class="pub-info">
+                    <div class="pub-title">NeuralOCT: Airway OCT Analysis via Neural Fields</div>
+                    <div class="pub-authors"><span class="me">Yining Jiao</span>, Amy Oldenburg, Yinghan Xu, Srikamal
+                        Soundararajan, Carlton Zdanski, Julia Kimbell, Marc Niethammer</div>
+                    <div class="pub-venue">preprint</div>
+                    <div class="pub-links"><a href="https://arxiv.org/abs/2403.10622" target="_blank">paper</a></div>
                 </div>
             </div>
-        </div>
 
-        <div class="pub-item">
-            <img src="./indexpics/tgars.png" alt="TGARS" />
-            <div class="pub-info">
-                <div class="pub-title">Intracluster Structured Low-Rank Matrix Analysis Method for Hyperspectral Denoising</div>
-                <div class="pub-authors">Wei Wei, Lei Zhang, <span class="me">Yining Jiao</span>, Chunna Tian, Cong Wang, Yanning Zhang</div>
-                <div class="pub-venue">IEEE Transactions on Geoscience and Remote Sensing</div>
-                <div class="pub-links">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/8447235" target="_blank">paper</a>
-                    <a href="https://github.com/jiaoyining/Intracluster-SLRMA" target="_blank">code</a>
+            <div class="pub-item">
+                <img src="./indexpics/naisr.png" alt="NAISR" />
+                <div class="pub-info">
+                    <div class="pub-title">NAISR: A 3D Neural Additive Model for Interpretable Shape Representation
+                    </div>
+                    <div class="pub-authors"><span class="me">Yining Jiao</span>, Carlton Zdanski, Julia Kimbell, Andrew
+                        Prince, Cameron Worden, Samuel Kirse, Christopher Rutter, Benjamin Shields, William Dunn, Jisan
+                        Mahmud, Marc Niethammer</div>
+                    <div class="pub-venue">ICLR 2024. <span class="highlight">Spotlight, top 5%.</span></div>
+                    <div class="pub-links">
+                        <a href="https://uncbiag.github.io/NAISR/" target="_blank">project</a>
+                        <a href="https://www.youtube.com/watch?v=8wSIIPAvlLI" target="_blank">video</a>
+                        <a href="https://arxiv.org/abs/2303.09234" target="_blank">paper</a>
+                        <a href="https://github.com/uncbiag/NAISR" target="_blank">code</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- ── Talks ── -->
-        <h2>Talks</h2>
-        <ul class="item-list">
-            <li>
-                <span class="item-title">Radiomics-Driven Deep Reinforcement Learning in Detecting Brain Tumor Lesions.</span><br />
-                <span class="item-meta">SJTU Graduate Student Academic Forum, July 2019.</span>
-                <span class="item-highlight">1st Prize in Oral Presentation Group</span>
-            </li>
-            <li>
-                <span class="item-title">Can Radiomics Features Boost the Performance of Deep Learning upon Histology Images?</span><br />
-                <span class="item-meta">IEEE Conference on Medical Imaging Physics and Engineering, Nov 2019.</span>
-                <span class="item-highlight">Excellent Paper Award</span>
-            </li>
-            <li>
-                <span class="item-title">ConvRadiomics: Convolutional Radiomics Feature Extraction Toolkit</span><br />
-                <span class="item-meta">IEEE Conference on Medical Imaging Physics and Engineering, Nov 2019.</span>
-            </li>
-        </ul>
-
-        <!-- ── Awards ── -->
-        <h2>Honors &amp; Awards</h2>
-        <ul class="item-list">
-            <li><span class="item-title">ICML Workshop on Computational Biology Fellowship</span>, <span class="item-meta">2021.</span></li>
-            <li><span class="item-title">Outstanding Graduate of Shanghai</span> <span class="item-meta">(only 4 from department), 2020.</span></li>
-            <li><span class="item-title">SJTU Excellent Graduate Student Award</span> <span class="item-meta">(only 2 from department), 2019.</span></li>
-            <li><span class="item-title">Excellent Undergraduate Thesis in NWPU</span>, <span class="item-meta">2017.</span></li>
-        </ul>
-
-        <!-- ── Experience ── -->
-        <h2>Experiences</h2>
-
-        <div class="exp-item">
-            <div class="exp-header">
-                <span class="exp-place">Department of Neurological Surgery, UC San Diego</span>
-                <span class="exp-date">Jan 2025 – Present</span>
+            <div class="pub-item">
+                <img src="./indexpics/curadiomics.png" alt="cuRadiomics" />
+                <div class="pub-info">
+                    <div class="pub-title">cuRadiomics: A GPU-Based Radiomics Feature Extraction Toolkit</div>
+                    <div class="pub-authors"><span class="me">Yining Jiao</span>, Oihane Mayo Ijurra, Lichi Zhang,
+                        Dinggang Shen, Qian Wang</div>
+                    <div class="pub-venue">MICCAI Workshop on Radiomics and Radiogenomics in Neuro-oncology using AI.
+                        <span class="highlight">Oral, top 10 of submissions.</span></div>
+                    <div class="pub-links">
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-030-40124-5_5"
+                            target="_blank">paper</a>
+                        <a href="https://github.com/jiaoyining/cuRadiomics" target="_blank">code</a>
+                    </div>
+                </div>
             </div>
-            <div class="exp-role">Postdoctoral Researcher</div>
-            <div class="exp-topic">Topic: Uncertainty-Aware Shape Modeling and Medical Image Analysis.</div>
-        </div>
 
-        <div class="exp-item">
-            <div class="exp-header">
-                <span class="exp-place">UNC-BIAG Lab, UNC-Chapel Hill</span>
-                <span class="exp-date">Aug 2020 – Jan 2025</span>
+            <div class="pub-item">
+                <img src="./indexpics/isegformer.webp" alt="iSegFormer" />
+                <div class="pub-info">
+                    <div class="pub-title">iSegFormer: Interactive Segmentation via Transformers with Application to 3D
+                        Knee MR Images</div>
+                    <div class="pub-authors">Qin Liu, Zhenlin Xu, <span class="me">Yining Jiao</span>, Marc Niethammer
+                    </div>
+                    <div class="pub-venue">MICCAI 2022.</div>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/pdf/2112.11325.pdf" target="_blank">paper</a>
+                        <a href="https://github.com/uncbiag/iSegFormer" target="_blank">code</a>
+                    </div>
+                </div>
             </div>
-            <div class="exp-role">Ph.D. Student</div>
-            <div class="exp-topic">Topic: Interpretable and Uncertainty-Aware Shape Analysis for Healthcare.</div>
-        </div>
 
-        <div class="exp-item">
-            <div class="exp-header">
-                <span class="exp-place">Medical Imaging Computing Lab, Shanghai Jiao Tong University</span>
-                <span class="exp-date">Sep 2017 – Jun 2020</span>
+            <div class="pub-item">
+                <img src="./indexpics/tgars.png" alt="TGARS" />
+                <div class="pub-info">
+                    <div class="pub-title">Intracluster Structured Low-Rank Matrix Analysis Method for Hyperspectral
+                        Denoising</div>
+                    <div class="pub-authors">Wei Wei, Lei Zhang, <span class="me">Yining Jiao</span>, Chunna Tian, Cong
+                        Wang, Yanning Zhang</div>
+                    <div class="pub-venue">IEEE Transactions on Geoscience and Remote Sensing</div>
+                    <div class="pub-links">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/8447235" target="_blank">paper</a>
+                        <a href="https://github.com/jiaoyining/Intracluster-SLRMA" target="_blank">code</a>
+                    </div>
+                </div>
             </div>
-            <div class="exp-role">M.Sc. Student, advised by Prof. Qian Wang</div>
-            <div class="exp-topic">Topic: GPU-Accelerated Radiomics and Medical Image Analysis.</div>
-        </div>
 
-        <div class="exp-item">
-            <div class="exp-header">
-                <span class="exp-place">Shaanxi Provincial Key Lab of Speech &amp; Image Information Processing</span>
-                <span class="exp-date">May 2016 – Jun 2017</span>
+            <!-- ── Talks ── -->
+            <h2>Talks</h2>
+            <ul class="item-list">
+                <li>
+                    <span class="item-title">Radiomics-Driven Deep Reinforcement Learning in Detecting Brain Tumor
+                        Lesions.</span><br />
+                    <span class="item-meta">SJTU Graduate Student Academic Forum, July 2019.</span>
+                    <span class="item-highlight">1st Prize in Oral Presentation Group</span>
+                </li>
+                <li>
+                    <span class="item-title">Can Radiomics Features Boost the Performance of Deep Learning upon
+                        Histology Images?</span><br />
+                    <span class="item-meta">IEEE Conference on Medical Imaging Physics and Engineering, Nov 2019.</span>
+                    <span class="item-highlight">Excellent Paper Award</span>
+                </li>
+                <li>
+                    <span class="item-title">ConvRadiomics: Convolutional Radiomics Feature Extraction
+                        Toolkit</span><br />
+                    <span class="item-meta">IEEE Conference on Medical Imaging Physics and Engineering, Nov 2019.</span>
+                </li>
+            </ul>
+
+            <!-- ── Awards ── -->
+            <h2>Honors &amp; Awards</h2>
+            <ul class="item-list">
+                <li><span class="item-title">ICML Workshop on Computational Biology Fellowship</span>, <span
+                        class="item-meta">2021.</span></li>
+                <li><span class="item-title">Outstanding Graduate of Shanghai</span> <span class="item-meta">(only 4
+                        from department), 2020.</span></li>
+                <li><span class="item-title">SJTU Excellent Graduate Student Award</span> <span class="item-meta">(only
+                        2 from department), 2019.</span></li>
+                <li><span class="item-title">Excellent Undergraduate Thesis in NWPU</span>, <span
+                        class="item-meta">2017.</span></li>
+            </ul>
+
+            <!-- ── Experience ── -->
+            <h2>Experiences</h2>
+
+            <div class="exp-item">
+                <div class="exp-header">
+                    <span class="exp-place">Department of Neurological Surgery, UC San Diego</span>
+                    <span class="exp-date">Jan 2025 – Present</span>
+                </div>
+                <div class="exp-role">Postdoctoral Researcher</div>
+                <div class="exp-topic">Topic: Uncertainty-Aware Shape Modeling and Medical Image Analysis.</div>
             </div>
-            <div class="exp-role">Student Researcher</div>
-            <div class="exp-topic">Topic: Hyperspectral Image Denoising.</div>
-        </div>
 
-        <!-- ── Services ── -->
-        <h2>Academic Services</h2>
-        <div class="services">
-            <p><strong>Conference Reviews:</strong> CVPR, ICCV, ECCV, ICML, ICLR, AISTATS, AAAI, MICCAI.</p>
-            <p><strong>Journal Reviews:</strong> IEEE TPAMI, IEEE JBHI, Neural Networks.</p>
-        </div>
+            <div class="exp-item">
+                <div class="exp-header">
+                    <span class="exp-place">UNC-BIAG Lab, UNC-Chapel Hill</span>
+                    <span class="exp-date">Aug 2020 – Jan 2025</span>
+                </div>
+                <div class="exp-role">Ph.D. Student</div>
+                <div class="exp-topic">Topic: Interpretable and Uncertainty-Aware Shape Analysis for Healthcare.</div>
+            </div>
 
-        <!-- ── Misc ── -->
-        <h2>Misc</h2>
-        <div class="misc">
-            <p>In my free time, I practice Tarot de Marseille and create knowledge sharing content about tarot reading — feel free to reach out if you're interested! I also enjoy gardening and writing poems. I was invited to Chinese Poetry New Discovery Poetry Camp in 2018 as one of the twelve selected campers and some of my works were published in Poetry Periodical, Chinese Poetry, etc.</p>
-        </div>
+            <div class="exp-item">
+                <div class="exp-header">
+                    <span class="exp-place">Medical Imaging Computing Lab, Shanghai Jiao Tong University</span>
+                    <span class="exp-date">Sep 2017 – Jun 2020</span>
+                </div>
+                <div class="exp-role">M.Sc. Student, advised by Prof. Qian Wang</div>
+                <div class="exp-topic">Topic: GPU-Accelerated Radiomics and Medical Image Analysis.</div>
+            </div>
 
-        <!-- ── Footer ── -->
-        <div class="footer">
-            &copy; Yining Jiao | Last updated: Feb. 11, 2026
-        </div>
+            <div class="exp-item">
+                <div class="exp-header">
+                    <span class="exp-place">Shaanxi Provincial Key Lab of Speech &amp; Image Information
+                        Processing</span>
+                    <span class="exp-date">May 2016 – Jun 2017</span>
+                </div>
+                <div class="exp-role">Student Researcher</div>
+                <div class="exp-topic">Topic: Hyperspectral Image Denoising.</div>
+            </div>
 
-    </main>
-</div>
+            <!-- ── Services ── -->
+            <h2>Academic Services</h2>
+            <div class="services">
+                <p><strong>Conference Reviews:</strong> CVPR, ICCV, ECCV, ICML, ICLR, AISTATS, AAAI, MICCAI.</p>
+                <p><strong>Journal Reviews:</strong> IEEE TPAMI, IEEE JBHI, Neural Networks.</p>
+            </div>
 
-<script>lucide.createIcons();</script>
+            <!-- ── Misc ── -->
+            <h2>Misc</h2>
+            <div class="misc">
+                <p>In my free time, I practice Tarot de Marseille and create knowledge sharing content about tarot
+                    reading — feel free to reach out if you're interested! I also enjoy gardening and writing poems. I
+                    was invited to Chinese Poetry New Discovery Poetry Camp in 2018 as one of the twelve selected
+                    campers and some of my works were published in Poetry Periodical, Chinese Poetry, etc.</p>
+            </div>
+
+            <!-- ── Footer ── -->
+            <div class="footer">
+                &copy; Yining Jiao | Last updated: Feb. 11, 2026
+            </div>
+
+        </main>
+    </div>
+
+    <script>lucide.createIcons();</script>
 </body>
+
 </html>

@@ -14,17 +14,17 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
-            --bg: #1e1e2e;
-            --bg-sidebar: #181825;
-            --border: #313244;
-            --text: #cdd6f4;
-            --text-dim: #a6adc8;
-            --text-bright: #f5e0dc;
-            --accent: #f5e0dc;
-            --accent-dim: #f2cdcd;
-            --link: #cba6f7;
-            --link-hover: #dbb9ff;
-            --card-hover: #24243a;
+            --bg: #ffffff;
+            --bg-sidebar: #f7f5f3;
+            --border: #e0dbd6;
+            --text: #4a4a4a;
+            --text-dim: #7a7a7a;
+            --text-bright: #3a3a3a;
+            --accent: #c4a882;
+            --accent-dim: #b89b74;
+            --link: #8b7b8b;
+            --link-hover: #a08da0;
+            --card-hover: #f2efeb;
         }
 
         html, body {
@@ -70,21 +70,21 @@
             height: 220px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid var(--accent-dim);
-            box-shadow: 0 0 40px rgba(203,166,247,.12), 0 8px 32px rgba(0,0,0,.5);
+            border: 3px solid var(--border);
+            box-shadow: 0 4px 20px rgba(0,0,0,.08);
             margin-bottom: 28px;
             transition: transform .3s, box-shadow .3s;
         }
 
         .sidebar img.profile:hover {
             transform: scale(1.04);
-            box-shadow: 0 0 60px rgba(203,166,247,.2), 0 12px 40px rgba(0,0,0,.6);
+            box-shadow: 0 8px 30px rgba(0,0,0,.12);
         }
 
         .sidebar h1 {
             font-size: 1.65em;
             font-weight: 700;
-            color: #fff;
+            color: var(--text-bright);
             margin-bottom: 4px;
             letter-spacing: -0.03em;
         }
@@ -129,7 +129,7 @@
             align-items: center;
             gap: 10px;
             padding: 8px 14px;
-            border-radius: 8px;
+            border-radius: 10px;
             font-size: 0.85em;
             color: var(--text-dim);
             transition: background .2s, color .2s;
@@ -158,7 +158,7 @@
         .main-content h2 {
             font-size: 1.35em;
             font-weight: 700;
-            color: #fff;
+            color: var(--text-bright);
             margin-top: 56px;
             margin-bottom: 24px;
             padding-bottom: 10px;
@@ -176,7 +176,7 @@
             bottom: 4px;
             width: 3px;
             background: var(--accent);
-            border-radius: 2px;
+            border-radius: 3px;
         }
 
         .main-content h2:first-child {
@@ -206,12 +206,14 @@
             margin-bottom: 32px;
             align-items: flex-start;
             padding: 16px;
-            border-radius: 10px;
-            transition: background .2s;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            transition: background .2s, box-shadow .2s;
         }
 
         .pub-item:hover {
             background: var(--card-hover);
+            box-shadow: 0 4px 16px rgba(0,0,0,.06);
         }
 
         .pub-item img {
@@ -219,7 +221,7 @@
             min-width: 320px;
             height: 180px;
             object-fit: cover;
-            border-radius: 8px;
+            border-radius: 10px;
             border: 1px solid var(--border);
         }
 
@@ -259,7 +261,7 @@
             font-size: 0.78em;
             padding: 4px 12px;
             border: 1px solid var(--border);
-            border-radius: 5px;
+            border-radius: 8px;
             margin-right: 6px;
             display: inline-block;
             margin-bottom: 4px;
@@ -271,7 +273,7 @@
         .pub-links a:hover {
             background: var(--accent);
             border-color: var(--accent);
-            color: #0a0a14;
+            color: #ffffff;
         }
 
         /* ── Lists ── */
@@ -290,15 +292,17 @@
         /* Experience */
         .exp-item {
             margin-bottom: 20px;
-            padding: 12px 16px;
-            border-radius: 8px;
-            border-left: 2px solid var(--border);
-            transition: border-color .2s, background .2s;
+            padding: 14px 18px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--border);
+            transition: border-color .2s, background .2s, box-shadow .2s;
         }
 
         .exp-item:hover {
-            border-left-color: var(--accent-dim);
+            border-left-color: var(--accent);
             background: var(--card-hover);
+            box-shadow: 0 4px 16px rgba(0,0,0,.06);
         }
 
         .exp-header {

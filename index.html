@@ -14,17 +14,17 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
-            --bg: #ffffff;
-            --bg-sidebar: #fafafa;
-            --border: #e5e5e5;
-            --text: #3d3d3d;
-            --text-dim: #888888;
-            --text-bright: #2c2c2c;
-            --accent: #8b5cf6;
-            --accent-dim: #7c4ddb;
-            --link: #8b5cf6;
-            --link-hover: #a78bfa;
-            --card-hover: #f5f3ff;
+            --bg: #1e1e2e;
+            --bg-sidebar: #181825;
+            --border: #313244;
+            --text: #cdd6f4;
+            --text-dim: #a6adc8;
+            --text-bright: #f5e0dc;
+            --accent: #f5e0dc;
+            --accent-dim: #f2cdcd;
+            --link: #cba6f7;
+            --link-hover: #dbb9ff;
+            --card-hover: #24243a;
         }
 
         html, body {
@@ -70,15 +70,15 @@
             height: 220px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid var(--border);
-            box-shadow: 0 4px 24px rgba(0,0,0,.08);
+            border: 3px solid var(--accent-dim);
+            box-shadow: 0 0 40px rgba(203,166,247,.12), 0 8px 32px rgba(0,0,0,.5);
             margin-bottom: 28px;
             transition: transform .3s, box-shadow .3s;
         }
 
         .sidebar img.profile:hover {
             transform: scale(1.04);
-            box-shadow: 0 6px 32px rgba(0,0,0,.12);
+            box-shadow: 0 0 60px rgba(203,166,247,.2), 0 12px 40px rgba(0,0,0,.6);
         }
 
         .sidebar h1 {

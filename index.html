@@ -12,24 +12,45 @@
     <link rel="stylesheet" href="jemdoc.css" type="text/css">
     <style>
         /* Dark theme override */
-        body,
+        html {
+            background-color: #0f0f1a !important;
+        }
+
+        body {
+            background-color: #1a1a2e !important;
+            color: #e0e0e0 !important;
+        }
+
         #layout-content {
-            background-color: #1a1a2e;
+            background: #1a1a2e !important;
             color: #e0e0e0;
+        }
+
+        table#tlayout {
+            background: #1a1a2e !important;
+        }
+
+        #layout-menu,
+        #layout-menu td {
+            background: #12122a !important;
+            border-color: #2a2a4a !important;
         }
 
         h1,
         h2,
         h3 {
-            color: #ffffff;
+            color: #ffffff !important;
+            border-bottom-color: #3a3a5a !important;
         }
 
-        a {
-            color: #6cb4ee;
+        a,
+        a > tt {
+            color: #6cb4ee !important;
         }
 
         a:hover {
-            color: #9dd1ff;
+            color: #9dd1ff !important;
+            border-bottom-color: #6cb4ee !important;
         }
 
         td {
@@ -45,12 +66,34 @@
             color: #c0c0c0;
         }
 
+        u {
+            color: #f0f0f0;
+        }
+
         img {
-            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5) !important;
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6) !important;
         }
 
         #footer {
-            color: #888;
+            color: #666;
+            border-top-color: #3a3a5a !important;
+        }
+
+        #footer a {
+            color: #6cb4ee !important;
+        }
+
+        tt {
+            background: #2a2a4a !important;
+            color: #e0e0e0 !important;
+        }
+
+        li {
+            color: #e0e0e0;
+        }
+
+        table {
+            border-color: #3a3a5a !important;
         }
     </style>
     <title>Yining Jiao's Homepage</title>

@@ -14,17 +14,17 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
-            --bg: #1e1e2e;
-            --bg-sidebar: #181825;
-            --border: #313244;
-            --text: #cdd6f4;
-            --text-dim: #a6adc8;
-            --text-bright: #f5e0dc;
-            --accent: #f5e0dc;
-            --accent-dim: #f2cdcd;
-            --link: #cba6f7;
-            --link-hover: #dbb9ff;
-            --card-hover: #24243a;
+            --bg: #faf8f5;
+            --bg-sidebar: #f4f1ec;
+            --border: #e0dbd3;
+            --text: #3d3d3d;
+            --text-dim: #7a7a72;
+            --text-bright: #2c2c2c;
+            --accent: #b07d4e;
+            --accent-dim: #9a6b3e;
+            --link: #b07d4e;
+            --link-hover: #8a5c30;
+            --card-hover: #f0ece6;
         }
 
         html, body {
@@ -70,15 +70,15 @@
             height: 220px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid var(--accent-dim);
-            box-shadow: 0 0 40px rgba(240,198,116,.12), 0 8px 32px rgba(0,0,0,.5);
+            border: 3px solid var(--border);
+            box-shadow: 0 4px 24px rgba(0,0,0,.08);
             margin-bottom: 28px;
             transition: transform .3s, box-shadow .3s;
         }
 
         .sidebar img.profile:hover {
             transform: scale(1.04);
-            box-shadow: 0 0 60px rgba(240,198,116,.2), 0 12px 40px rgba(0,0,0,.6);
+            box-shadow: 0 6px 32px rgba(0,0,0,.12);
         }
 
         .sidebar h1 {

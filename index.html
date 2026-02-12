@@ -13,7 +13,8 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+        rel="stylesheet" />
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         * {
@@ -60,32 +61,30 @@
 
         /* ── Layout ── */
         .page-wrapper {
-            display: flex;
-            max-width: 1400px;
-            margin: 0 auto;
+            display: block;
+            margin: 0;
+            padding: 50px 60px 0;
             min-height: 100vh;
         }
 
         /* ── Sidebar ── */
         .sidebar {
             width: 340px;
-            min-width: 340px;
-            padding: 40px 36px 32px;
-            border-right: 1px solid var(--border);
-            background: var(--bg-sidebar);
+            padding: 0 50px 0 0;
+            float: left;
+            position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            position: sticky;
-            top: 0;
-            height: 100vh;
-            overflow-y: auto;
+            background: transparent;
+            border-right: none;
         }
 
         .sidebar img.profile {
-            width: 220px;
-            height: 220px;
+            width: 100%;
+            max-width: 220px;
+            height: auto;
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid var(--border);
@@ -162,9 +161,9 @@
 
         /* ── Main Content ── */
         .main-content {
-            flex: 1;
-            padding: 40px 56px 40px;
-            max-width: 1060px;
+            margin-left: 390px;
+            padding: 0 0 40px;
+            max-width: 800px;
         }
 
         .main-content h2 {
@@ -397,17 +396,14 @@
         /* ── Responsive ── */
         @media (max-width: 900px) {
             .page-wrapper {
-                flex-direction: column;
+                padding: 40px 24px 0;
             }
 
             .sidebar {
+                float: none;
                 width: 100%;
-                min-width: 100%;
-                height: auto;
-                position: static;
-                border-right: none;
+                padding: 0 0 32px;
                 border-bottom: 1px solid var(--border);
-                padding: 40px 24px 32px;
             }
 
             .sidebar img.profile {
@@ -416,7 +412,9 @@
             }
 
             .main-content {
-                padding: 32px 24px;
+                margin-left: 0;
+                padding: 32px 0;
+                max-width: 100%;
             }
 
             .pub-item {

@@ -9,6 +9,7 @@
     <meta name="google-site-verification" content="0eSNitBfkotnYTljBUNk8t6a6d5F-0iRAwWpEcOFKnU" />
     <title>Yining Jiao</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -86,41 +87,37 @@
             line-height: 1.5;
         }
 
-        .sidebar .email {
-            font-size: 0.82em;
-            color: #888;
-            margin-bottom: 24px;
-            word-break: break-all;
+        .sidebar .link-list {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+            text-align: left;
         }
 
-        .sidebar .social-links {
-            display: flex;
-            gap: 16px;
-            margin-bottom: 30px;
-            flex-wrap: wrap;
-            justify-content: center;
+        .sidebar .link-list li {
+            margin-bottom: 8px;
         }
 
-        .sidebar .social-links a {
+        .sidebar .link-list a {
             display: flex;
             align-items: center;
-            justify-content: center;
-            width: 36px;
-            height: 36px;
-            border-radius: 8px;
+            gap: 10px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.85em;
+            color: #aaa;
+            transition: background .2s, color .2s;
+        }
+
+        .sidebar .link-list a:hover {
             background: #1a1a35;
-            transition: background .2s, transform .2s;
+            color: #d0d0d0;
         }
 
-        .sidebar .social-links a:hover {
-            background: #2a2a55;
-            transform: translateY(-2px);
-        }
-
-        .sidebar .social-links img {
-            width: 20px;
-            height: 20px;
-            filter: brightness(0) invert(.75);
+        .sidebar .link-list a i[data-lucide] {
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
         }
 
         /* ── Right main content ── */
@@ -357,13 +354,13 @@
             Department of Neurological Surgery<br />
             UC San Diego
         </div>
-        <div class="email">jyn@cs.unc.edu</div>
-        <div class="social-links">
-            <a href="https://scholar.google.com/citations?user=9FVJ-CkAAAAJ&hl=en" title="Google Scholar"><img src="./pic/google_scholar.png" alt="Scholar" /></a>
-            <a href="https://github.com/jiaoyining" title="GitHub"><img src="./pic/github.jpg" alt="GitHub" /></a>
-            <a href="https://www.linkedin.com/in/yining-jiao-16545b1a8/" title="LinkedIn"><img src="./pic/LinkedIn.png" alt="LinkedIn" /></a>
-            <a href="./jyn_resume_v3.pdf" title="CV"><img src="./pic/cv.png" alt="CV" /></a>
-        </div>
+        <ul class="link-list">
+            <li><a href="https://scholar.google.com/citations?user=9FVJ-CkAAAAJ&hl=en" target="_blank"><i data-lucide="graduation-cap"></i> Google Scholar</a></li>
+            <li><a href="https://github.com/jiaoyining" target="_blank"><i data-lucide="github"></i> GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/yining-jiao-16545b1a8/" target="_blank"><i data-lucide="linkedin"></i> LinkedIn</a></li>
+            <li><a href="./jyn_resume_v3.pdf" target="_blank"><i data-lucide="file-text"></i> CV / Resume</a></li>
+            <li><a href="mailto:jyn@cs.unc.edu"><i data-lucide="mail"></i> jyn@cs.unc.edu</a></li>
+        </ul>
     </aside>
 
     <!-- ========== RIGHT MAIN CONTENT ========== -->
@@ -563,11 +560,12 @@
             <div class="clustrmaps">
                 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=HEL5_ulN3-tWDYMNTpsVpov8zjKMLlNdEspzIn1TF-o&cl=ffffff&w=a"></script>
             </div>
-            &copy; Yining Jiao | Last updated: Feb. 11, 2025
+            &copy; Yining Jiao | Last updated: Feb. 11, 2026
         </div>
 
     </main>
 </div>
 
+<script>lucide.createIcons();</script>
 </body>
 </html>
